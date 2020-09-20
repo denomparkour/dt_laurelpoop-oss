@@ -179,6 +179,7 @@ on boot
     write /dev/cpuset/foreground/boost/cpus 0-7
     write /dev/cpuset/background/cpus 0-7
     write /dev/cpuset/system-background/cpus 0-7
+    start vendor.power_off_alarm
 
 # D2TW
     chown system system /dev/input/event2
