@@ -236,7 +236,7 @@ PRODUCT_PACKAGES += \
 
 # Display/Graphics
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.3-service \
+    android.hardware.graphics.composer@2.2-service \
     android.hardware.graphics.mapper@2.0-impl-qti-display \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
@@ -362,8 +362,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.laurel_sprout-libperfmgr \
-    android.hardware.power.stats@1.0-service.pixel
+    android.hardware.power@1.3-service.laurel_sprout-libperfmgr
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json

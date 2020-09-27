@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/laurel_sprout/device.mk)
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_INCLUDE_WIFI_EXT := true
@@ -21,17 +21,15 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_laurel_sprout
+PRODUCT_NAME := xtended_laurel_sprout
 PRODUCT_DEVICE := laurel_sprout
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A3
 PRODUCT_MANUFACTURER := Xiaomi
 
-# EvolutionX Official Props
-EVO_MAINTAINER := oddlyspaced
-EVO_SUPPORT_URL := https://t.me/EvolutionXA3
-CUSTOM_BUILD_TYPE := OFFICIAL
-EVO_DONATE_URL := https://www.paypal.me/hdsrivastava
+# Xtended Official Props
+XTENDED_MAINTAINER := denomparkour
+XTENDED_BUILD_TYPE := OFFICIAL
 
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
 

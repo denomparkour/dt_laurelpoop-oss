@@ -1055,7 +1055,7 @@ service vendor.audio-hal-2-0 /vendor/bin/hw/android.hardware.audio@2.0-service
     interface android.hardware.audio@4.0::IDevicesFactory default
     interface android.hardware.audio@2.0::IDevicesFactory default
 
-service vendor.hwcomposer-2-3 /vendor/bin/hw/android.hardware.graphics.composer@2.3-service
+service vendor.hwcomposer-2-2 /vendor/bin/hw/android.hardware.graphics.composer@2.2-service
     override
     class hal animation
     user system
