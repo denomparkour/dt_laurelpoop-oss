@@ -295,6 +295,8 @@ PRODUCT_COPY_FILES += \
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service
+# Haxes
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # IMS
 PRODUCT_PACKAGES += \
